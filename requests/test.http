@@ -1,0 +1,138 @@
+POST http://localhost:5000/company
+content-Type: application/json
+
+{
+	"_id": {
+		"$oid": "6228c9d2a5553900197f1a17"
+	},
+	"logo": {
+		"name": "red-apples-2.jpeg",
+		"size": {
+			"$numberInt": "516681"
+		},
+		"path": "company/1646843267034red-apples-2.jpeg",
+		"thumbPath": "company/thumb_1646843267034red-apples-2.jpeg"
+	},
+	"coverImage": {
+		"name": "pumpkin-4.jpg",
+		"size": {
+			"$numberInt": "732385"
+		},
+		"path": "company/1646843286479pumpkin-4.jpg",
+		"thumbPath": "company/thumb_1646843286479pumpkin-4.jpg"
+	},
+	"registerState": {
+		"code": {
+			"$numberInt": "6269131"
+		},
+		"name": "England"
+	},
+	"registerCity": {
+		"code": {
+			"$numberInt": "2648110"
+		},
+		"name": "Greater London"
+	},
+	"principalPlaceState": {
+		"code": {
+			"$numberInt": "6269131"
+		},
+		"name": "England"
+	},
+	"principalPlaceCity": {
+		"code": {
+			"$numberInt": "2648110"
+		},
+		"name": "Greater London"
+	},
+	"bankName": "1372eff23fbc454689d6b1e249c7546e:5032e5f4c75a2242a4531d52988c302d",
+	"bankAccountName": "3cee71bbf0705163b8cf33d705a714a2:1a05153ad750a6a3c1df20c5a4db559b",
+	"sortCode": "6a97588af0d16330b06ce7230f4a1b67:77642b890b09e3e4542c4533573811fc",
+	"accountNumber": "e354f2553f87bd1985a7b454d5e6d127:8812ebc9022b66cc40143a1f13e8fe87",
+	"ibanNumber": "4b812ac1eb0c4cc313d6575595306c67:39c36462093daee8c0917ee96ecaac56",
+	"swiftCode": "4ef18e25e510d7d5681fdb8d9c2e68ba:c7234132f7dd20e41c2a80d16773a39a",
+	"totalMember": {
+		"$numberInt": "1"
+	},
+	"paymentTerm": {
+		"$numberInt": "1"
+	},
+	"standardPaymentTerm": "Banking account",
+	"isSamePrincipalPlace": true,
+	"description": "I do lots of things and this is only one of them",
+	"speciality": "VEG_SALAD",
+	"companyForm": "Limited Company",
+	"companyTypeOther": null,
+	"companyType": "IMPORTER",
+	"companyName": "Gurkan Brothers & Sisters",
+	"VATNumber": "GB123456789",
+	"companyHouseRegistration": "11223344",
+	"registerPostCode": "SW1A 2AA",
+	"registerAddress": "10 Downing St",
+	"principalPlaceAddress": "10 Downing St",
+	"principalPlacePostCode": "SW1A 2AA",
+	"attachment": [],
+	"registerCountry": {
+		"code": {
+			"$numberInt": "2635167"
+		},
+		"name": "United Kingdom"
+	},
+	"principalPlaceCountry": {
+		"code": {
+			"$numberInt": "2635167"
+		},
+		"name": "United Kingdom"
+	},
+	"code": "GB5VG",
+	"slug": "gurkan-brothers-sisters-GB5VG",
+	"status": "APPROVED",
+	"user": {
+		"$oid": "6228c90f88b2ad001bb9b0b1"
+	},
+	"createdAt": {
+		"$date": {
+			"$numberLong": "1646840275006"
+		}
+	},
+	"updatedAt": {
+		"$date": {
+			"$numberLong": "1649396834291"
+		}
+	},
+	"__enc_bankName": true,
+	"__enc_bankAccountName": true,
+	"__enc_sortCode": true,
+	"__enc_accountNumber": true,
+	"__enc_ibanNumber": true,
+	"__enc_swiftCode": true,
+	"__v": {
+		"$numberInt": "1"
+	},
+	"location": [
+		{
+			"$numberDouble": "-0.1277265"
+		},
+		{
+			"$numberDouble": "51.5033998"
+		}
+	],
+	"updatedBy": {
+		"$oid": "6228c90f88b2ad001bb9b0b1"
+	},
+	"arrivalDueDay": {
+		"$numberInt": "3"
+	},
+	"arrivalDueHour": {
+		"$numberInt": "2"
+	},
+	"specialities": [
+		"FRUIT",
+		"SALAD",
+        "MUSHROOM"
+	],
+	"types": [
+		"GROWER",
+		"WHOLESALER"
+	]
+}

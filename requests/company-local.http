@@ -1,0 +1,131 @@
+# POST http://localhost:5000/company
+POST http://localhost:5000/companySchema
+# POST http://localhost:5000/companyTypeSchema
+# POST http://localhost:5000/companySpecialitySchema
+content-Type: application/json
+
+{
+	"_id": {
+		"$oid": "62430f62e1a198001bce4a90"
+	},
+	"status": "APPROVED",
+	"logo": null,
+	"coverImage": null,
+	"registerState": {
+		"code": {
+			"$numberInt": "6269131"
+		},
+		"name": "England"
+	},
+	"registerCity": {
+		"code": {
+			"$numberInt": "2633560"
+		},
+		"name": "Worcestershire"
+	},
+	"principalPlaceState": {
+		"code": {
+			"$numberInt": "6269131"
+		},
+		"name": "England"
+	},
+	"principalPlaceCity": {
+		"code": {
+			"$numberInt": "2633560"
+		},
+		"name": "Worcestershire"
+	},
+	"bankName": "b6d7624ac1b972c2413443b8c681f398:e24c80df13545073b96e0486c9cff8fc",
+	"bankAccountName": "77d7dedbc475d39fd8d72b7db13659df:4fa421a3709ce367376ac36592b0f473af4025abfaef38a366a93dbb986c4fce",
+	"sortCode": "908d024301214e6dcde4fd59ff6e1fcb:282611b238b7982d10e53cbaaf1cfb3b",
+	"accountNumber": "56a50373f88a63e2456110e1b8bfbb67:9a370c9cc23d8e6a6ccfe39f81a194ee",
+	"ibanNumber": "b7d8379c191ebda6d1eeb6854d6f26ad:02e26a79bdcde1a3aa2ba70a3f413dc5",
+	"swiftCode": "d1598e2064d42d233a407f6312f7be0a:0b169ec2dab6732fd289b65f39b18021",
+	"totalMember": {
+		"$numberInt": "1"
+	},
+	"arrivalDueDay": {
+		"$numberInt": "24"
+	},
+	"arrivalDueHour": {
+		"$numberInt": "24"
+	},
+	"paymentTerm": {
+		"$numberInt": "14"
+	},
+	"standardPaymentTerm": "Banking account",
+	"isSamePrincipalPlace": true,
+	"description": "The Beach Family have been farming, the 250 acre Mudwalls Farm in Warwickshire for the last 50 years.",
+	"speciality": "VEG_SALAD",
+	"companyForm": "Limited Company",
+	"companyTypeOther": null,
+	"companyType": "WHOLESALER",
+	"companyName": "Mudwalls Farm Ltd",
+	"VATNumber": "123334942",
+	"companyHouseRegistration": "12618599",
+	"registerPostCode": "BB98  ORE",
+	"registerAddress": "Mudwalls Farm Ltd\nOxleasow Road\nEast Moons Moat",
+	"principalPlaceAddress": "Mudwalls Farm Ltd\nOxleasow Road\nEast Moons Moat",
+	"principalPlacePostCode": "BB98  ORE",
+	"attachment": [
+		{
+			"_id": {
+				"$oid": "62431def25d3fb001bd81e92"
+			},
+			"name": "Inv CK 24366 31 Jan 2022 MFL02.pdf",
+			"size": {
+				"$numberInt": "150747"
+			},
+			"path": "company/1648565742940Inv_CK_24366_31_Jan_2022_MFL02.pdf"
+		}
+	],
+	"registerCountry": {
+		"code": {
+			"$numberInt": "2635167"
+		},
+		"name": "United Kingdom"
+	},
+	"principalPlaceCountry": {
+		"code": {
+			"$numberInt": "2635167"
+		},
+		"name": "United Kingdom"
+	},
+	"code": "MFGR5",
+	"slug": "mudwalls-farm-ltd-MFGR5",
+	
+	"user": {
+		"$oid": "62430b717e77aa001ad34ab8"
+	},
+	"createdAt": {
+		"$date": {
+			"$numberLong": "1648562018816"
+		}
+	},
+	"updatedAt": {
+		"$date": {
+			"$numberLong": "1648565743886"
+		}
+	},
+	"__enc_bankName": true,
+	"__enc_bankAccountName": true,
+	"__enc_sortCode": true,
+	"__enc_accountNumber": true,
+	"__enc_ibanNumber": true,
+	"__enc_swiftCode": true,
+	"__v": {
+		"$numberInt": "1"
+	},
+	"updatedBy": {
+		"$oid": "62430b717e77aa001ad34ab8"
+	},
+	"specialities": [
+		"FRUIT",
+		"SALAD"
+	],
+	"types": [
+		"IMPORTER",
+		"GROWER",
+		"WHOLESALER"
+	]
+}
